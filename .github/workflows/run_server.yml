@@ -29,5 +29,5 @@ jobs:
 
       
       - run: npm install http
-      - run: index.js
+      - run: node index.js
 
