@@ -30,8 +30,8 @@ jobs:
       - uses: actions/checkout@v4
 
       
-      - name: Install http from npm
-        run: npm install typescript --save-dev
+      - name: Install fs from npm
+        run: npm install fs
 
       - name: Compile .ts-files
         run: npx tsc index.ts
