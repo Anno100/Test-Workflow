@@ -31,7 +31,7 @@ jobs:
 
       
       - name: Install fs from npm
-        run: npm install fs
+        run: npm install
 
       - name: Compile .ts-files
         run: npx tsc index.ts
