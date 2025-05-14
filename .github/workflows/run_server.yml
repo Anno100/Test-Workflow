@@ -30,7 +30,10 @@ jobs:
       - uses: actions/checkout@v4
 
       
-      - name: Install fs from npm
+      - name: init node
+        run: npm init
+        
+      - name: Install modules
         run: npm install
 
       - name: Compile .ts-files
