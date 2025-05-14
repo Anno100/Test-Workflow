@@ -31,7 +31,11 @@ jobs:
 
       
       - name: Install http from npm
-        run: npm install http
+        run: npm install typescript --save-dev
+
+      - name: Compile .ts-files
+      - run: npx tsc
+        
       - name: Run index.js
         run: node index.js
 
