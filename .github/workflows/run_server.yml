@@ -34,7 +34,7 @@ jobs:
         run: npm install typescript --save-dev
 
       - name: Compile .ts-files
-      - run: npx tsc
+        run: npx tsc
         
       - name: Run index.js
         run: node index.js
